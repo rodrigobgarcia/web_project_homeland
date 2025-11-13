@@ -1,3 +1,8 @@
-.footer__copyright, #footer__copyright {
-    display: flex;
+.footer__copyright {
+    font-size: 14px;
+    line-height: 1.0;
+    max-width: 166px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    text-align: center;
 }
