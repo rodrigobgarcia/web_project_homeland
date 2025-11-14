@@ -36,11 +36,18 @@
     .header {
         margin-bottom: 50px;
     }
-    
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        margin-bottom: ;
+        margin-bottom: 50px;
+    }
+
+    .header__content {
+        max-width: 188px;
+    }
+
+    .header__title {
+        font-size: 14px;
     }
 }
