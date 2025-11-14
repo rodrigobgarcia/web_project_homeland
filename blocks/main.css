@@ -1,15 +1,7 @@
-.main {
-    width: 100%;
-}
-
-.main__content {
-    width: 100%;
-}
 
 .main__lead {
     max-width: 984px;
     margin: 0 auto;
-
 }
 
 .main__lead--title {
@@ -20,7 +12,6 @@
     text-align: center;
     max-width: 720px;
     margin-bottom: 32px;
-
 }
 
 .main__lead--subtitle {
@@ -51,7 +42,6 @@
     font-weight: bold;
     text-align: start;
     margin-bottom: 40px;
-
 }
 
 .main__intro--quote {
