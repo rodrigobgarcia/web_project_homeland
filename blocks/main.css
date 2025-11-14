@@ -61,7 +61,6 @@
     font-weight: normal;
     text-align: start;
     margin-bottom: 10px;
-  
 }
 
 .main__intro--author {
@@ -81,5 +80,39 @@
     line-height: 1.5;
     font-weight: normal;
     text-align: start;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .main__lead {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .main__lead--subtitle {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .main__lead--image {
+        max-width: 768px;
+        margin-bottom: 90px;
+    }
+
+    .main__intro--quote {
+        text-align: center !important;
+        margin: 0 auto;
+        margin-top: 50px;
+        max-width: 720px;
+    }
+
+    .main__intro--title, .main__intro--paragraph {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .main__intro--paragraph {
+        margin-bottom: 88px;
+    }
     
 }
