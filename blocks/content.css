@@ -346,7 +346,7 @@
 
 
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 900px) {
     .content__lead {
         max-width: 535px;
         margin: 0 auto;
@@ -354,7 +354,7 @@
 
     .content__intro {
         max-width: 535px;
-        margin: 0;
+        margin: 0 auto;
         padding-left: 2%;
         padding-right: 2%;
     }
